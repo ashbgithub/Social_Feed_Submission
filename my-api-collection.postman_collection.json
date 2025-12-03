@@ -1,0 +1,153 @@
+{
+	"info": {
+		"_postman_id": "b3eb0f6b-9889-407a-b71e-536f527f76da",
+		"name": "localhost:4000",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30222456"
+	},
+	"item": [
+		{
+			"name": "/users/2/revoke-admin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwicm9sZSI6Im93bmVyIiwiaWF0IjoxNzY0NzU3OTE2LCJleHAiOjE3NjUzNjI3MTZ9.GqJPityjM8EXck_MJuKG9JwO9dhkwmGfXb7JkVI8oVY",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/users/2/revoke-admin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"users",
+						"2",
+						"revoke-admin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/users/1/make-admin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwicm9sZSI6Im93bmVyIiwiaWF0IjoxNzY0NzU3OTE2LCJleHAiOjE3NjUzNjI3MTZ9.GqJPityjM8EXck_MJuKG9JwO9dhkwmGfXb7JkVI8oVY",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/users/1/make-admin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"users",
+						"1",
+						"make-admin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "00/users/2/make-admin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwicm9sZSI6Im93bmVyIiwiaWF0IjoxNzY0NzU3OTE2LCJleHAiOjE3NjUzNjI3MTZ9.GqJPityjM8EXck_MJuKG9JwO9dhkwmGfXb7JkVI8oVY",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/users/2/make-admin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"users",
+						"2",
+						"make-admin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/auth/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwicm9sZSI6Im93bmVyIiwiaWF0IjoxNzY0NzU3MDc2LCJleHAiOjE3NjUzNjE4NzZ9.l0Y7BWvc0afjw9msUWxMUGxWRL9WmdVqYVKv3MHUDRk",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"bob\",\r\n  \"email\": \"bob@gmail.com\",\r\n  \"password\": \"bob@2026\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/auth/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"auth",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
